@@ -1,0 +1,159 @@
+* {
+    font-family: "Rimouski";
+}
+
+body {
+    background-color: #b2f7ef;
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: #274c77;
+    padding-bottom: 1.5rem;
+    border-bottom: 8px solid #274c77;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+.container {
+    box-shadow: 10px 10px 36px 12px rgba(195, 201, 200, 0.46);
+    position: absolute;
+    left: 50%;
+    top: 30rem;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    background-color: #FFF;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        top: 27rem;
+        width: 18rem;
+    }
+}
+
+
+.app-title {
+    width: 25rem;
+    height: 4rem;
+    border-radius: 10px 10px 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .app-title {
+        width: 18rem;
+        height: 3.5rem;
+    }
+}
+
+.app-title p {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification {
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container {
+    width: 25rem;
+    height: 20rem;
+    background-color: #F4F9FF;
+}
+
+@media only screen and (max-width: 700px) {
+    .weather-container {
+        width: 18rem;
+        height: 17rem;
+    }
+}
+
+.weather-icon {
+    width: 25rem;
+    height: 10rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .weather-icon {
+        width: 18rem;
+        height: 7rem;
+    }
+}
+
+.weather-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value {
+    width: 25rem;
+    height: 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .temperature-value {
+        width: 18rem;
+        height: 4.2rem;
+    }
+}
+
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .temperature-value p:hover {} */
+
+.temperature-value span {
+    color: #293251;
+    font-size: 0.5em;
+}
+
+/* .temperature-description {} */
+
+.temperature-description p {
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* .location {} */
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
